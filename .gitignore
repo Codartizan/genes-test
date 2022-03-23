@@ -1,0 +1,12 @@
+# Project exclude paths
+/.idea/
+/.gradle/
+**/.DS_Store
+**/build/
+**/out/
+**/screenshots/
+**/report/
+/.gitsecret/
+**/allure-results/
+**/node_modules/
+

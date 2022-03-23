@@ -1,0 +1,3 @@
+rootProject.name = 'genes-test'
+include 'test-base'
+
