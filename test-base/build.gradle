@@ -1,4 +1,4 @@
-group 'nz.co.anz'
+group 'com.telephant'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -7,20 +7,6 @@ repositories {
 }
 
 dependencies {
-    compile("com.google.firebase:firebase-admin:${firebaseAdminVersion}") {
-        exclude group: 'com.google.guava', module: 'guava'
-    }
-    compile "ch.qos.logback:logback-classic:${logbackVersion}"
-    compile "com.google.inject:guice:${guiceVersion}"
-    compile "io.cucumber:cucumber-guice:${cucumberVersion}"
-    compile "io.qameta.allure:allure-cucumber4-jvm:${allureAdaptorVersion}"
-    compile "io.github.prashant-ramcharan:courgette-jvm:${courgetteVersion}"
-    compile "com.fasterxml.jackson.core:jackson-databind:${jacksonDataBindVersion}"
-    compile "joda-time:joda-time:${jodaTimeVersion}"
-    compile "javax.annotation:javax.annotation-api:${javaxAnnotationVersion}"
-    compile "io.rest-assured:rest-assured:${restAssuredVersion}"
-    compile "org.jdbi:jdbi3-core:${jdbi3Version}"
-    compile "org.jdbi:jdbi3-sqlobject:${jdbi3Version}"
-    compile "org.jdbi:jdbi3-postgres:${jdbi3Version}"
-    compile "org.postgresql:postgresql:${postgresVersion}"
+    implementation('com.google.inject:guice:${guice}')
+    implementation('io.github.prashant-ramcharan:courgette-jvm:${courgette}')
 }

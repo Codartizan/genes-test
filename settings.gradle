@@ -1,3 +1,4 @@
 rootProject.name = 'genes-test'
 include 'test-base'
+include 'ui-test'
 
