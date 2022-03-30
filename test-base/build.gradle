@@ -7,6 +7,10 @@ repositories {
 }
 
 dependencies {
-    implementation('com.google.inject:guice:${guice}')
-    implementation('io.github.prashant-ramcharan:courgette-jvm:${courgette}')
+    implementation('com.google.inject:guice:${guiceVersion}')
+    implementation('io.github.prashant-ramcharan:courgette-jvm:${courgetteVersion}')
+    implementation('io.github.bonigarcia:webdrivermanager:${webdriverManagerVersion}')
+    implementation('org.seleniumhq.selenium:selenium-java:${seleniumVersion}')
+    implementation('org.seleniumhq.selenium:selenium-support:${seleniumVersion}')
+    implementation('org.assertj:assertj-core:${assertjVersion}')
 }

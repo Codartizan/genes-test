@@ -10,8 +10,12 @@ repositories {
 }
 
 ext {
-    guice = '5.1.0'
-    courgette = '6.4.1'
+    guiceVersion = '5.1.0'
+    courgetteVersion = '6.4.1'
+    assertjVersion = '3.22.0'
+    seleniumVersion = '4.1.2'
+    webdriverManagerVersion = '5.1.0'
+    allureAdaptorVersion = '2.13.0'
 }
 
 allprojects {
